@@ -256,7 +256,7 @@ namespace ft
 			return (find(x) == end() ? 0 : 1);
 		}
 
-		// >= (greater then and equal)
+		// >= (greater than and equal)
 		iterator lower_bound(const key_type& x)
 		{
 			iterator it;
@@ -277,7 +277,7 @@ namespace ft
 			return it;
 		}
 
-		// < (less then)
+		// < (less than)
 		iterator upper_bound(const key_type& x)
 		{
 			iterator it;
